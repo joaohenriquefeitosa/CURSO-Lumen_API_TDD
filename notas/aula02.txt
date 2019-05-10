@@ -1,0 +1,9 @@
+Para rodar os testes:
+
+vendor/phpunit/phpunit/phpunit 
+
+alias t='vendor/phpunit/phpunit/phpunit'
+
+Para criar uma migration:
+
+./artisan make:migration create_table_user --create  users
